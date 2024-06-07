@@ -1,14 +1,16 @@
-root{
-    --cor-fundo: #1e7bcc ;
-    --cor-principal: #0B0D20 ;
+:root{
+    --cor-fundo: #5bb3e6 ;
+    --cor-principal: #283080 ;
     --cor-secundaria: #212333; 
-    --cor-destaque: #2BDEFD;
-    --cor-texto: #D7F9FF;
+    --cor-destaque: #6cb5fa;
+    --cor-texto: #ffffff;
 
 }
 
 body {
-    background-color: var(--cor-fundo);
+    background-image: url("./tiana.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     color: var(--cor-texto);
     display: flex;
     justify-content: center;
