@@ -6,33 +6,33 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Se aparecer um sapo falante te pedindo um beijo, você daria?",
+        enunciado: "Uma das garotas que debutou com você se envolveu num escândalo, e só você sabe, iria espalhar ou não?",
         alternativas: [
             {
-                texto: "Eca, de jeito nenhum!",
-                afirmacao: "Não gostei nem um pouco da ideia!"
+                texto: "De jeito nenhum!",
+                afirmacao: "Isso poderia acabar com toda sua reputação"
             },
             {
-                texto: "Sim! Ele se tornaria meu príncipe...",
-                afirmacao: "Acredita que o amor verdadeiro é capaz de salvar"
+                texto: "Sim! Principalmente se ela fosse o diamante da temporada.",
+                afirmacao: "Faria o possível para afastá-la de meus pretendentes"
             }
         ]
     },
     {
-        enunciado: "Se seu pai tivesse que ir para a guerra, você mentiria para ir no lugar dele para protegê-lo?",
+        enunciado: "Se você fosse a Lady Whitledown e ficasse sabendo de um escândalo da sua família, iria escrever sobre?",
         alternativas: [
             {
-                texto: "Não, tenho medo dessas coisas",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                texto: "Não, não iria valer a pena.",
+                afirmacao: "Não espalharia nada sobre minha família."
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                texto: "Sim, não gosto deles e eles não gostam de mim",
+                afirmacao: "Elas iriam aprender a me tratar melhor."
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "",
         alternativas: [
             {
                 texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
@@ -45,28 +45,28 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Se a rainha desconfiasse que sua melhor amiga é a Lady Whistledown, o que você faria?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                texto: "Eu a defenderia e colocaria a culpa em quelquer outra pessoa.",
+                afirmacao: "Ela não é culpada, não pode perder a aprovação da Rainha!"
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                texto: "Eu deixaria para lá, não é comigo.",
+                afirmacao: "Se acontecesse comiigo, aí sim seria diferente"
             }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "Você acredita que o  amor verdadeiro é maior que os títulos de um cavalheiro?",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                texto: "Eu não me casaria com alguém que não é da alta sociedade",
+                afirmacao: "Isso seria um escândalo!"
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                texto: "Sim, casamento deve ser sobre amor, não títulos",
+                afirmacao: "Acredita que o amor supera tudo."
             }
         ]
     },
