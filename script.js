@@ -10,7 +10,7 @@ const perguntas = [
         alternativas: [
             {
                 texto: "De jeito nenhum!",
-                afirmacao: "Isso poderia acabar com toda sua reputação"
+                afirmacao: "Não prejudicaria a reputação de uma dama."
             },
             {
                 texto: "Sim! Principalmente se ela fosse o diamante da temporada.",
@@ -27,20 +27,20 @@ const perguntas = [
             },
             {
                 texto: "Sim, não gosto deles e eles não gostam de mim",
-                afirmacao: "Elas iriam aprender a me tratar melhor."
+                afirmacao: "Minhas irmãs iriam se arrepender de me tratar mal"
             }
         ]
     },
     {
-        enunciado: "",
+        enunciado: "Se você descobrisse que a Lady Whitledown é uma pessoa próxima de você, iria entregá-la?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "Sim, independentemente se fosse uma pessoa querida.",
+                afirmacao: "a Lady Whistledown prejudicou muitas pessoas, merece ser entregada,"
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                texto: "Se fosse alguém querido, eu iria acobertar",
+                afirmacao: "mesmo que tenha prejudicado pessoas, não serei eu quem vai entregá-la."
             }
         ]
     },
@@ -48,12 +48,12 @@ const perguntas = [
         enunciado: "Se a rainha desconfiasse que sua melhor amiga é a Lady Whistledown, o que você faria?",
         alternativas: [
             {
-                texto: "Eu a defenderia e colocaria a culpa em quelquer outra pessoa.",
-                afirmacao: "Ela não é culpada, não pode perder a aprovação da Rainha!"
+                texto: "Eu a defenderia e colocaria a culpa em qualquer outra pessoa.",
+                afirmacao: "Minha amiga não pode perder a aprovação da rainha!"
             },
             {
                 texto: "Eu deixaria para lá, não é comigo.",
-                afirmacao: "Se acontecesse comiigo, aí sim seria diferente"
+                afirmacao: "Se o problema fosse comigo, aí sim seria diferente"
             }
         ]
     },
@@ -62,11 +62,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Eu não me casaria com alguém que não é da alta sociedade",
-                afirmacao: "Isso seria um escândalo!"
+                afirmacao: "Não me casaria com alguém sem títulos, seria um escândalo."
             },
             {
                 texto: "Sim, casamento deve ser sobre amor, não títulos",
-                afirmacao: "Acredita que o amor supera tudo."
+                afirmacao: "Acredito que o amor supera os títulos, deve ser sempre sobre sentimentos."
             }
         ]
     },
