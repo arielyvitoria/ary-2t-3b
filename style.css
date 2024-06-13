@@ -1,6 +1,6 @@
 :root{
     --cor-fundo: #5bb3e6 ;
-    --cor-principal: #283080 ;
+    --cor-principal: #285880b6 ;
     --cor-secundaria: #212333; 
     --cor-destaque: #6cb5fa;
     --cor-texto: #ffffff;
@@ -25,6 +25,11 @@ body {
     text-align: center;
     padding: 20px;
     border-radius: 20px;
+}
+
+.caixa-perguntas{
+    padding: 30px;
+    font-size: 20px;
 }
 
 h1{

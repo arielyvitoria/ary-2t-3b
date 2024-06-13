@@ -14,7 +14,7 @@ const perguntas = [
             },
             {
                 texto: "Sim! Principalmente se ela fosse o diamante da temporada.",
-                afirmacao: "Faria o possível para afastá-la de meus pretendentes"
+                afirmacao: "Faria o possível para afastar qualquer dama de meus pretendentes."
             }
         ]
     },
@@ -27,7 +27,7 @@ const perguntas = [
             },
             {
                 texto: "Sim, não gosto deles e eles não gostam de mim",
-                afirmacao: "Minhas irmãs iriam se arrepender de me tratar mal"
+                afirmacao: "Minhas irmãs iriam se arrepender de me tratar mal."
             }
         ]
     },
@@ -36,11 +36,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Sim, independentemente se fosse uma pessoa querida.",
-                afirmacao: "a Lady Whistledown prejudicou muitas pessoas, merece ser entregada,"
+                afirmacao: "a Lady Whistledown prejudicou muitas pessoas, merece ser entregada."
             },
             {
                 texto: "Se fosse alguém querido, eu iria acobertar",
-                afirmacao: "mesmo que tenha prejudicado pessoas, não serei eu quem vai entregá-la."
+                afirmacao: "Mesmo que tenha prejudicado pessoas, não serei eu quem vai entregá-la."
             }
         ]
     },
@@ -53,7 +53,7 @@ const perguntas = [
             },
             {
                 texto: "Eu deixaria para lá, não é comigo.",
-                afirmacao: "Se o problema fosse comigo, aí sim seria diferente"
+                afirmacao: "Se o problema fosse comigo, aí sim seria diferente."
             }
         ]
     },
@@ -105,7 +105,6 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
